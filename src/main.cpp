@@ -1,9 +1,9 @@
 #include <Arduino.h>
 
-#include "AppConfig.h"
-#include "Mp3ConsoleController.h"
-#include "Mp3Player.h"
-#include "SerialCommandHandler.h"
+#include "app/AppConfig.h"
+#include "console/Mp3ConsoleController.h"
+#include "console/SerialCommandHandler.h"
+#include "mp3/Mp3Player.h"
 
 HardwareSerial mp3Serial(2);
 Mp3Player mp3Player(mp3Serial, AppConfig::Mp3RxPin, AppConfig::Mp3TxPin, AppConfig::Mp3BusyPin);

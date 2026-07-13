@@ -1,4 +1,4 @@
-#include "SerialCommandHandler.h"
+#include "console/SerialCommandHandler.h"
 
 SerialCommandHandler::SerialCommandHandler(Stream &console, Mp3ConsoleController &mp3Controller)
     : console_(console), mp3Controller_(mp3Controller)

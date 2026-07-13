@@ -1,4 +1,4 @@
-#include "Mp3ConsoleController.h"
+#include "console/Mp3ConsoleController.h"
 
 Mp3ConsoleController::Mp3ConsoleController(Stream &console, Mp3Player &mp3Player)
     : console_(console), mp3Player_(mp3Player)

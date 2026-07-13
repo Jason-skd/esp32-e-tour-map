@@ -2,7 +2,7 @@
 
 #include <Arduino.h>
 
-#include "Mp3Player.h"
+#include "mp3/Mp3Player.h"
 
 class Mp3ConsoleController
 {

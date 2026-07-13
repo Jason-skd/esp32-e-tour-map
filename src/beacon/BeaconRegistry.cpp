@@ -1,4 +1,4 @@
-#include "BeaconRegistry.h"
+#include "beacon/BeaconRegistry.h"
 
 namespace BeaconRegistry
 {

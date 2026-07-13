@@ -2,7 +2,7 @@
 
 #include <Arduino.h>
 
-#include "Mp3ConsoleController.h"
+#include "console/Mp3ConsoleController.h"
 
 class SerialCommandHandler
 {
