@@ -12,7 +12,9 @@ namespace AppConfig
     constexpr uint32_t Mp3Baud = 9600;
 
     constexpr int StartupVolume = 30;
-    constexpr int StartupTrack = 1;
+
+    constexpr uint32_t SerialStartupDelayMs = 500;
     constexpr uint32_t Mp3StartupDelayMs = 1500;
     constexpr uint32_t SelectTfCardDelayMs = 200;
+    constexpr uint32_t SetVolumeDelayMs = 100;
 }

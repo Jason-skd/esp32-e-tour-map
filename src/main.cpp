@@ -15,7 +15,7 @@ void setup()
     Serial.begin(AppConfig::DebugBaud);
     mp3Player.begin(AppConfig::Mp3Baud);
 
-    delay(500);
+    delay(AppConfig::SerialStartupDelayMs);
     commandHandler.printHelp();
 
     Serial.println("Waiting for MP3 module startup...");
@@ -25,9 +25,7 @@ void setup()
     delay(AppConfig::SelectTfCardDelayMs);
 
     mp3Controller.setVolume(AppConfig::StartupVolume);
-    delay(100);
-
-    mp3Controller.playStartupTrack(AppConfig::StartupTrack);
+    delay(AppConfig::SetVolumeDelayMs);
 }
 
 void loop()
