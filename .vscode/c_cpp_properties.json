@@ -10,6 +10,7 @@
             "includePath": [
                 "/Users/skd/Documents/esp32-e-tour-map/include",
                 "/Users/skd/Documents/esp32-e-tour-map/src",
+                "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src",
                 "/Users/skd/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                 "/Users/skd/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                 "/Users/skd/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -208,7 +209,6 @@
                 "/Users/skd/.platformio/packages/framework-arduinoespressif32/variants/esp32",
                 "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                 "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
-                "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src",
                 "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src",
                 "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src",
                 "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src",
@@ -246,6 +246,7 @@
                 "path": [
                     "/Users/skd/Documents/esp32-e-tour-map/include",
                     "/Users/skd/Documents/esp32-e-tour-map/src",
+                    "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src",
                     "/Users/skd/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include",
                     "/Users/skd/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include",
                     "/Users/skd/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos",
@@ -444,7 +445,6 @@
                     "/Users/skd/.platformio/packages/framework-arduinoespressif32/variants/esp32",
                     "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src",
                     "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src",
-                    "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/BLE/src",
                     "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/BluetoothSerial/src",
                     "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/DNSServer/src",
                     "/Users/skd/.platformio/packages/framework-arduinoespressif32/libraries/EEPROM/src",
